@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+$font-stack: Inter, sans-serif;
+
+$fw-reg: 400;
+$fw-bold: 700;
+$fw-xbold: 800;
+
+$soft-red: hsl(5, 85%, 63%);
+$soft-orange: hsl(35, 77%, 62%);
+$off-white: hsl(36, 100%, 99%);
+$gray-blue: hsl(233, 8%, 79%);
+$gray-blue-dark: hsl(236, 13%, 42%);
+$blue-dark: hsl(240, 100%, 5%);
+
+$full-width: 100%;
+$w-50: 50%;
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#navlinks {
+    list-style: none;
+}
+
+.navlink {
+    font-family: $font-stack;
+    color: $gray-blue-dark;
+    display: inline-block;
+    margin: 0 1.5rem;
+}
+
+.navlink a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#page-container {
+    padding: 4rem 10rem;
+    min-height: 100vh;
+}
+ 
+
+@media screen and (min-width: 1440px) {
+    #page-container {
+        padding: 6rem 8rem;
+        min-height: 100vh;
+    }
+}
