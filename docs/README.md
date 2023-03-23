@@ -1,6 +1,8 @@
 # Frontend Mentor - News homepage solution
+<img width="1439" alt="AmIResponsive Screenshot of News Homepage" src="https://user-images.githubusercontent.com/79907183/227154455-47a70eda-a3cc-4434-8c69-908480faf4e4.png">
 
-This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+A pretty small-scale project; a home page for a fictional tech news website. Utilizes CSS technologies including Grid and Flexbox to achieve a layout that
+breaks away from your average row/column humdrum.
 
 ## Table of contents
 
